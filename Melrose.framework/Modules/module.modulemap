@@ -1,0 +1,6 @@
+framework module Melrose {
+  umbrella header "Melrose.h"
+
+  export *
+  module * { export * }
+}
