@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/Uikit.h>
 @interface TRChannelMelrose : NSObject
-- (id)initWithWindow:(UIWindow *)mainWindow  andSecret:(NSString *)secret andToken:(NSString *)token andChannelAppId:(NSNumber *)channelAppId andCid:(NSNumber *)cid andAppName:(NSString *)strAppName;
+- (id)initWithWindow:(UIWindow *)mainWindow  andSecret:(NSString *)secret andToken:(NSString *)token  andAppName:(NSString *)strAppName;
 @end

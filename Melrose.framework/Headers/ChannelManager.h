@@ -11,7 +11,7 @@
 @interface ChannelManager : NSObject
 @property (nonatomic,strong)NSString * secret;
 @property (nonatomic,strong)NSString * token;
-@property (nonatomic,strong)NSNumber * cid;
-@property (nonatomic,strong)NSNumber * channelAppId;
+//@property (nonatomic,strong)NSNumber * cid;
+//@property (nonatomic,strong)NSNumber * channelAppId;
 + (id)sharedManager;
 @end
